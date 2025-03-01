@@ -1,4 +1,4 @@
-# Insurance-Data-Analysis-Project
+# Insurance-Data-Analysis
 ## Dashboard Link:https://app.powerbi.com/groups/me/reports/9647f709-628d-41c1-af35-e2c1448710d4/239140df633b890196a6?experience=power-bi
 ## Problem Statement
 Prism Insurance Private Limited company wanted me to create a dashboard for them through which they can check
