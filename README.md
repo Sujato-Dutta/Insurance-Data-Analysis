@@ -1,8 +1,11 @@
 # INSURANCE DATA ANALYSIS
+
 ## Dashboard Link: 
 https://app.powerbi.com/links/x20dV7qpz9?ctid=8bf89164-b311-40ca-a295-2e0f5f39d14e&pbi_source=linkShare
+
 ## Problem Statement: 
 To conduct a comprehensive analysis of Prism Insurance Private Limited’s insurance policies, claims by various metrics to identify key insights using various visualizations and KPIs in Power BI.
+
 ## Business Requirements: 
 1.	Total premium amount and how it varies with policy number, claim number, gender and customer id
 2.	Total claim amount and how it varies with policy number, claim number, gender and customer id
@@ -11,7 +14,8 @@ To conduct a comprehensive analysis of Prism Insurance Private Limited’s insur
 5.	Total claim amount by age group and how they vary with policy number, claim number, gender and customer id
 6.	Total premium amount by policy type and how they vary with policy number, claim number, gender and customer id
 7.	Total no of active/inactive policies and how they vary with policy number, claim number, gender and customer id
-8.	Total coverage amount of various claim status under different policy types. 
+8.	Total coverage amount of various claim status under different policy types.
+
 ## Steps Followed:
 1.	The data was imported to Power BI desktop in excel format. Data quality was checked in Power Query Editor after having changed column profiling to view entire dataset. A new column was added named ‘Age Group’ using conditional column where people between age 18-24 were placed under the category of ‘Young Adult’, less than 60 under ‘Adult’ or else under ‘Senior’. The datatype of the column was changed to text.
 2.	Three slicers were added to present policy number, customer id and claim number as filters.
@@ -23,6 +27,7 @@ To conduct a comprehensive analysis of Prism Insurance Private Limited’s insur
 8.	A ribbon chart was added to represent no of claims by various claim status.
 9.	A line chart was added to represent claim amount by age group.
 10.	Finally, dashboard was completed and published to Power BI.
+
 ## Key Findings:
 1.	The travel sector had the highest premium amount followed closely by health and auto.
 2.	Inactive policies were more in number than active however there wasn’t a huge difference between the two.
@@ -30,4 +35,4 @@ To conduct a comprehensive analysis of Prism Insurance Private Limited’s insur
 4.	Rejected claims were more in number than selected and pending.
 5.	The two genders had almost same data available for all the metrics. So there was nothing to separate them.
 
-![Image Alt](image_url)
+![Image Alt](https://github.com/Sujato-Dutta/Insurance-Data-Analysis/blob/bef9ac65052b9b3ebbd66e90400d52bb62845d80/Insurance%20dashboard.jpg)
